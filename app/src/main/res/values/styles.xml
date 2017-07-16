@@ -1,0 +1,56 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#26A69A</item>
+        <item name="colorPrimaryDark">#00796B</item>
+        <item name="colorAccent">#4DB6AC</item>
+        <item name="colorButtonNormal">#26A69A</item>
+    </style>
+
+    <style name="main_theme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_margin">8dp</item>
+    </style>
+
+    <style name="linear">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_margin">4dp</item>
+    </style>
+
+    <style name="checkbox">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="edittext">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">256dp</item>
+        <item name="android:hint">Answer</item>
+        <item name="android:inputType">textCapWords</item>
+        <item name="android:layout_margin">2dp</item>
+    </style>
+
+    <style name="radiobutton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_margin">2dp</item>
+    </style>
+
+    <style name="instructions">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+    </style>
+
+</resources>
